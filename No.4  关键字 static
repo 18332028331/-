@@ -1,4 +1,6 @@
 ㈠修饰局部变量
+#define  _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
 void test()
 {
 	static int a = 1;          加之前输出 1 1 1 1 1  加static之后输出 2 2 2 2 2
