@@ -1,0 +1,23 @@
+#define  _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+int Max(int x, int y)
+{
+	if (x > y)
+		return x;
+	else
+		return y;
+}
+//宏的定义
+#define MAX(X,Y) (X>Y?X:Y)
+int main()
+{
+	int a = 10;
+	int b = 20;
+	//函数的方式
+	int max = Max(a, b);
+	printf("max=%d\n", max);
+	//宏的方式
+	max = MAX(a, b);
+	printf("max=%d\n", max);
+	return 0;
+}
