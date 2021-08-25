@@ -3,9 +3,9 @@
 int main()
 {int day = 0;
 scanf("%d", &day);
-switch (day)
+switch (day)//switch(整形表达式)
 {
-case 1:
+case 1://case(整型常量表达式）
 	printf("星期一\n");
 	break;
 case 2:
@@ -27,7 +27,7 @@ case 7:
 	printf("星期天\n");
 	break;
 }
-
+default:
+break;
 	return 0;
-
 }
