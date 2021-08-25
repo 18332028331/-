@@ -1,0 +1,16 @@
+判断一个数是否为奇数，输出1-100的奇数
+
+#define  _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	int i = 1;
+	while (i <= 100)
+	{
+		if (i % 2 == 1)
+			printf("%d ", i);
+		i++;
+	}
+	return 0;
+}
