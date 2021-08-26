@@ -1,0 +1,26 @@
+#define  _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+int main()
+{
+	int i = 1;
+	while (i <= 10)
+	{
+		if (i == 5)
+			break;//停止后期的所有循环，直至终止循环。用于永久终止循环
+			//continue;--用于终止本次循环的，也就是本次循环中continue后边的代码不
+		//会再执行，而是直接跳转到while语句的判断部分。进行下一次循环的入口判断。
+		printf("%d ", i);
+		i++;
+	}
+  
+  ㈡
+ int main()
+
+	{int ch = 0;
+//ctrl+z---EOF-end of file->-1	
+	while ((ch=getchar())!=EOF)
+	{
+		putchar(ch);
+	}
+	return 0;
+	}
